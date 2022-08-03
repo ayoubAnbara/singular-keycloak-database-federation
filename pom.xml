@@ -24,6 +24,12 @@
             <version>${keycloak.version}</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-model-jpa</artifactId>
+            <version>${keycloak.version}</version>
+            <scope>provided</scope>
+        </dependency>
 
         <dependency>
             <groupId>org.jboss.logging</groupId>
@@ -170,7 +176,7 @@
 
         <lombok.version>1.18.22</lombok.version>
         <jboss-logging.version>3.3.1.Final</jboss-logging.version>
-        <keycloak.version>17.0.1</keycloak.version>
+        <keycloak.version>19.0.1</keycloak.version>
         <auto-service.version>1.0-rc5</auto-service.version>
         <jboss.home>target/keycloak</jboss.home>
     </properties>
